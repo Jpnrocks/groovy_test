@@ -3,7 +3,7 @@ def gv
 pipeline {
 	agent any
 	stages{
-		stage("build")
+		stage("init")
 		{
 			steps{
 				script{
